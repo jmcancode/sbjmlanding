@@ -1,6 +1,9 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import jmLanding from "../assets/jm-transp.jpg";
+
+
 
 export default function MainPage() {
   return (
@@ -47,7 +50,9 @@ export default function MainPage() {
           </Col>
         </Row>
         <Row>
-          <Col></Col>
+          <Col>
+           
+          </Col>
         </Row>
       </div>
     </React.Fragment>
