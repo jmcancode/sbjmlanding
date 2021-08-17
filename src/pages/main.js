@@ -1,9 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
 import jmLanding from "../assets/jm-transp.jpg";
-
-
 
 export default function MainPage() {
   return (
@@ -45,14 +43,12 @@ export default function MainPage() {
             }}
           >
             <h2 style={{ fontFamily: "Damion" }} className="text-center">
-              Coming August '21
+              Coming <br /> September '21
             </h2>
           </Col>
         </Row>
-        <Row>
-          <Col>
-           
-          </Col>
+        <Row className="pt-5">
+          <Col></Col>
         </Row>
       </div>
     </React.Fragment>
